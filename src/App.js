@@ -9,7 +9,8 @@ class App extends Component {
     super()
 
     this.state = {
-      monsters: []
+      monsters: [],
+      searchfield: ''
     }
   }
 
@@ -22,13 +23,13 @@ class App extends Component {
 render() {
   return (
     <div className="App">
-    <CardList name='Yihuah'>    
-        {
-          this.state.monsters.map(monster => 
-          <h1 key={ monster.id } > { monster.name }
-          </h1>)
-        } 
-    </CardList >
+      <input 
+        type='search' 
+        placeholder="search monsters"
+        // code below logs value of input from keyboard and console.logs it, but it has to be set as the 2nd parameter of the setState function because it is async.
+        onChange={e => this.setState({ searchfield: e.target.value }, () => console.log(this.state)) }/>
+
+    <CardList monsters={this.state.monsters} />
 
     </div>
 )
