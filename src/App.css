@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: rgb(0,255,63);
+  background: linear-gradient(45deg, rgba(0,255,63,1) 0%, rgba(13,194,168,1) 47%, rgba(7,26,120,0.9806062073266807) 100%, rgba(12,0,255,0.9806062073266807) 100%);
 }
 
 .App-logo {
@@ -23,6 +25,11 @@
   color: #61dafb;
 }
 
+h1 {
+  font-family: 'Bigelow Rules', cursive;
+  color: blue;
+  font-size: 72px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

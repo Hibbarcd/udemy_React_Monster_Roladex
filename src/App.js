@@ -12,6 +12,8 @@ class App extends Component {
       monsters: [],
       searchfield: ''
     }
+    //verbose method of setting this scope for handleChange function
+    // this.handleChange = this.handleChange.bind(this)
   }
 
       componentDidMount(){
@@ -19,6 +21,10 @@ class App extends Component {
           .then( response => response.json())
           .then( users => this.setState({monsters: users}))
          }
+
+      handleChange = (e)  => {
+        this.setState({ searchfield: e.target.value })
+      }
 
 render() {
   const { monsters, searchfield } = this.state
@@ -29,10 +35,10 @@ render() {
 
   return (
     <div className="App">
-
+  <h1>Monsters Rolodex</h1>
     <SearchBox 
             placeholder="search monsters"
-            handleChange={e => this.setState({ searchfield: e.target.value }, () => console.log(this.state)) }
+            handleChange={ this.handleChange }
     />
     <CardList monsters={filteredMonsters} />
 
