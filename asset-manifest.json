@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/udemy_React_Monster_Rolodex/static/css/main.3e5a0266.chunk.css",
-    "main.js": "/udemy_React_Monster_Rolodex/static/js/main.814c7b73.chunk.js",
-    "main.js.map": "/udemy_React_Monster_Rolodex/static/js/main.814c7b73.chunk.js.map",
-    "runtime~main.js": "/udemy_React_Monster_Rolodex/static/js/runtime~main.705df575.js",
-    "runtime~main.js.map": "/udemy_React_Monster_Rolodex/static/js/runtime~main.705df575.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/udemy_React_Monster_Rolodex/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/udemy_React_Monster_Rolodex/static/js/2.65aa1cca.chunk.js.map",
-    "index.html": "/udemy_React_Monster_Rolodex/index.html",
-    "precache-manifest.de98ff19d1e0c2cc51873b78f3c2fa4b.js": "/udemy_React_Monster_Rolodex/precache-manifest.de98ff19d1e0c2cc51873b78f3c2fa4b.js",
-    "service-worker.js": "/udemy_React_Monster_Rolodex/service-worker.js",
-    "static/css/main.3e5a0266.chunk.css.map": "/udemy_React_Monster_Rolodex/static/css/main.3e5a0266.chunk.css.map"
+    "main.css": "/udemy_React_Monster_Roladex/static/css/main.3e5a0266.chunk.css",
+    "main.js": "/udemy_React_Monster_Roladex/static/js/main.616ffab0.chunk.js",
+    "main.js.map": "/udemy_React_Monster_Roladex/static/js/main.616ffab0.chunk.js.map",
+    "runtime~main.js": "/udemy_React_Monster_Roladex/static/js/runtime~main.9849f1a9.js",
+    "runtime~main.js.map": "/udemy_React_Monster_Roladex/static/js/runtime~main.9849f1a9.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/udemy_React_Monster_Roladex/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/udemy_React_Monster_Roladex/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/udemy_React_Monster_Roladex/index.html",
+    "precache-manifest.7c6cdedbf3221128c9fb63b80d8bf25e.js": "/udemy_React_Monster_Roladex/precache-manifest.7c6cdedbf3221128c9fb63b80d8bf25e.js",
+    "service-worker.js": "/udemy_React_Monster_Roladex/service-worker.js",
+    "static/css/main.3e5a0266.chunk.css.map": "/udemy_React_Monster_Roladex/static/css/main.3e5a0266.chunk.css.map"
   }
 }
