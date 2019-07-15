@@ -2,7 +2,7 @@
   "name": "monstersrolladex",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://hibbarcd.github.io/udemy_React_Monster_Rolodex",
+  "homepage":"https://Hibbarcd.github.io/udemy_React_Monster_Roladex",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
